@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: rabbitmq-foreign
+  datasource:
+    url: jdbc:mysql://192.168.206.129:3306/rabbbitmq
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  rabbitmq:
+    host: 192.168.206.129
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+server:
+  port: 8800
+
+#
+
+
